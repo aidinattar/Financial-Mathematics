@@ -24,3 +24,7 @@ In the excel I computed the results for 1 month maturity, while in Julia I wrote
 The assignment consists in the task of prooving the convergence of the Binomial Recursive Tree model expectation for the Call option price to the Black-Scholes formula. 
 
 The results are reported both in Excel and in a Jupyter-Notebook written in Julia 1.7.0. In particular, while for the Binomial Model I used the function already used in W1.Binomial-Model, for the Black-Scholes price I used the function blsprice of FinancialToolBox.
+
+## W3.Greeks/
+
+The assignment consist in the task of computing the greeks surfaces for a call option and verify the presence of the volatility smile.
