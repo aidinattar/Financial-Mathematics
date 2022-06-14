@@ -27,4 +27,32 @@ The results are reported both in Excel and in a Jupyter-Notebook written in Juli
 
 ## W3.Greeks/
 
-The assignment consist in the task of computing the greeks surfaces for a call option and verify the presence of the volatility smile.
+The assignment consists in the task of computing the greeks surfaces for a call option and verify the presence of the volatility smile.
+
+The results are reported in a Jupyter-Notebook written in Julia 1.7.0. The Data are downloaded using the python package 'yfinance'. The computations are done using FinancialToolBox.
+
+## W4.Value-at-Risk/
+
+The assignment consists in the task of computing the Value at Risk with several methods:
+  - Parametric method
+  - Parametric method with EWMA volatility
+  - Monte Carlo simulation
+  - Historical method
+  - Historical simulation
+
+The results are reported in a Jupyter-Notebook framework written in Julia 1.7.2.
+
+## W5.MonteCarlo/
+
+The assignment consists in the task of generating a number of simulations of a Geometric Brownian Motion and, using them, computing the price of several types of options, such as:
+  - Vanilla Options
+  - Asian Options with fixed strike
+  - Asian Options with floating strike
+  - Lookback Options
+  - Barrier Options up-and-in
+  - Barrier Options up-and-out
+  - Barrier Options down-and-in
+  - Barrier Options down-and-out
+  - Double Barrier Options
+
+The results are reported in a Jupyter-Notebook framework written in Julia 1.7.2. We used both user provided function and the package FinancialMonteCarlo.jl.
